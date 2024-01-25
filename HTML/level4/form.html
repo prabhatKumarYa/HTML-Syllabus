@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>All Form tags</title>
+</head>
+<body>
+  <form action="submit.php" method="post">
+    <fieldset>
+      <legend>Sign up</legend>
+      <label for="username">Username : </label>
+      <input type="text" id="username" name="username" placeholder="Enter username...">
+      <br><br>
+
+      <label for="email">Email : </label>
+      <input type="email" id="email" name="email" placeholder="enter email add...">
+      <br><br>
+      <label for="password">Password : </label>
+      <input type="password" id="password" name="password">
+      <br><br>
+      <label for="password2">Confirm password : </label>
+      <input type="password" id="password2" name="password2">
+      <br><br>
+      <label for="dateofbirth">Date of birth : </label>
+      <input type="date" id="dob" name="dateofbirth">
+      <br><br>
+      <label for="gender">Gender :</label>
+      <br><br>
+
+      <input type="radio" id="male" name="gender" value="male">
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="gender" value="female">
+      <label for="female">Female</label>
+      <input type="radio" id="others" name="gender" value="others">
+      <label for="others">Others</label>
+      <br><br>
+
+      <label for="photos">Insert your photo :</label>
+      <select name="photos" id="photos">
+        <option value="pic1">Pic 1</option>
+        <option value="pic2">Pic 2</option>
+        <option value="pic3">Pic 3</option>
+      </select>
+      <br>
+      <br>
+      <label for="resume">Insert your Resume :</label>
+      <input type="file" name="resume" value="resume">
+      <br><br>
+      <label for="color"> Choose color :</label>
+      <input type="color" name="color" id="color">
+      <br><br>
+      <label for="setrange">Range :</label>
+      <input type="range" value="setrange">
+      <br><br>
+      <label for="">Known Langauge :</label>
+      <br><br>
+      <label for="">Hindi</label>
+      <input type="checkbox">
+      <br><br>
+      <label for="">English</label>
+      <input type="checkbox"><br><br>
+
+      <label for="">Urdu</label>
+      <input type="checkbox"> 
+      <br><br>
+      <label for="">About yourself :</label>
+      <textarea name="" id="" cols="30" rows="3"></textarea>
+      <br><br>
+      <label for="">Button :</label>
+      <input type="button" value="click me">
+      <br><br>
+      <button type="submit">Submit</button>
+
+    </fieldset>
+  </form>
+</body>
+</html>
